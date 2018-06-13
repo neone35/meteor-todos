@@ -14,6 +14,8 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.48",
+    "bcrypt": "^2.0.1",
+    "classnames": "^2.2.6",
     "meteor-node-stubs": "^0.4.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
@@ -26,10 +28,6 @@
     "testModule": "test/main.js"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-compat": "^2.4.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "husky": "^0.14.3"
   }
 }
